@@ -1,0 +1,34 @@
+/* Estilos para botones */
+.button {
+  background-color: transparent; /* Fondo transparente */
+  color: #2980b9; /* Color del texto */
+  border: 2px solid #2980b9; /* Borde celeste azulado */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  font-weight: 600; /* Peso de la fuente */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: all 0.3s ease; /* Transición suave para efectos */
+}
+
+/* Efecto hover */
+.button:hover {
+  background-color: #2980b9; /* Cambia el fondo al pasar el ratón */
+  color: #fff; /* Cambia el color del texto a blanco */
+}
+
+/* Efecto active (presionado) */
+.button:active {
+  background-color: #1a5d8e; /* Color más oscuro al presionar */
+  transform: scale(0.95); /* Efecto de pulsación */
+}
+
+/* Efecto disabled */
+.button:disabled {
+  background-color: transparent; /* Fondo transparente */
+  color: #bdc3c7; /* Color gris claro para texto */
+  border: 2px solid #bdc3c7; /* Borde gris claro */
+  cursor: not-allowed; /* Cursor no permitido */
+  opacity: 0.6; /* Efecto de opacidad */
+}
